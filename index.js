@@ -15,7 +15,14 @@ function updateMap()
             else{
                 color = `rgb(${cases}, 0, 0)`;
             }
-            new mapboxgl.Marker({
+        //     new mapboxgl.Marker({
+        //         draggable: false,
+        //         color :color
+        //         })
+        //         .setLngLat([longitude])
+        //         .addTo(map)
+        // });
+        new mapboxgl.Marker({
                 draggable: false,
                 color :color
                 })
