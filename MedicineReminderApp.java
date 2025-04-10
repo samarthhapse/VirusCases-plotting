@@ -99,7 +99,7 @@ public class MedicineReminderApp extends Application {
     // 🖥️ Show a system tray notification
     private void showSystemNotification(String title, String message) {
         if (!SystemTray.isSupported()) {
-            System.out.println("System tray not supported!");
+            System.out.println("System tray not supported !");
             return;
         }
 
